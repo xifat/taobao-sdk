@@ -1,0 +1,25 @@
+{
+    "name": "xifat/taobao-sdk",
+    "type": "library",
+    "description": "Taobao client(SDK) for laravel 5.1",
+    "keywords": ["taobao","taobao-top", "laravel", "sdk", "api"],
+    "homepage": "https://www.oauthq.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MATA",
+            "email": "facelook@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0|~5.1|~5.2",
+        "graham-campbell/manager": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oauthq\\TopClient\\": "src/",
+            "TopClient\\": "src/top/"
+        }
+    }
+}
