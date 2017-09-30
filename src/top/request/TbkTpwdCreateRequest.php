@@ -1,6 +1,8 @@
 <?php
 namespace TopClient\request;
 
+use TopClient\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.tpwd.create request
  *
